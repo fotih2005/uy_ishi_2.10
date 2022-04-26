@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,gBAAgB,AAAC,CACb,OAAO,CAAE,IAAI,CAChB,AACD,AACI,eADW,AACV,IAAK,CAAA,WAAW,CAAC,CACd,YAAY,CAAE,IAAI,CACrB",
+    "sources": [
+        "../scss/_blocks/main-nav.scss"
+    ],
+    "names": [],
+    "file": "main-nav.min.css"
+}

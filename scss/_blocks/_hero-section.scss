@@ -1,0 +1,23 @@
+.hero-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #F7F7F7;
+}
+.hero-section__title-wrapper {
+    width: 161px;
+    text-align: center;
+    margin: 0 auto;
+}
+.hero-section__title {
+    padding-bottom: 16px;
+    border-bottom: 1px solid;
+}
+.hero-section__content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:800px) {
+    .hero-section__content-wrapper{
+        display: block;
+    }
+}

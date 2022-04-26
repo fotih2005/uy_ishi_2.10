@@ -1,0 +1,32 @@
+.main-nav__wrapper {
+    padding: 22px;
+}
+.main-nav__cards {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.main-nav__item {
+    &:not(:last-child){
+        margin-right: 100px;
+    }
+    list-style: none;
+}
+.main-nav__item-link {
+    text-decoration: none;
+    color: #000;
+}
+@media only screen and (max-width:800px) {
+    .main-nav__wrapper{
+        padding: 10px 0;
+    }
+    .main-nav__item {
+        &:not(:last-child){
+            margin-right: 50px;
+        }
+    }
+    .main-nav__cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
